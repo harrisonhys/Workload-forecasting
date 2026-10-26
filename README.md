@@ -1,5 +1,8 @@
 # Zero-shot workload forecasting for serverless and middleware autoscaling
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23662411.svg)](https://doi.org/10.5281/zenodo.23662411)
+(v0.5, the version used in the paper; all versions: https://doi.org/10.5281/zenodo.23662410)
+
 Code, configuration and supporting outputs for the paper draft `paper/draft_paper_id.docx`
 (Indonesian). Design and deviations: `SPEC.md`; result log: `RESULTS.md`.
 

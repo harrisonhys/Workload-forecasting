@@ -865,14 +865,16 @@ def conclusion() -> None:
       "Penelitian lanjutan akan mencakup simulator tingkat permintaan, ramalan yang diperbarui pada setiap langkah kontrol, "
       "pemilihan kebijakan secara otomatis untuk setiap aplikasi, dan integrasi dengan model energi.")
     H("Ketersediaan kode dan data", 1)
-    P("Paket keterulangan tersedia di https://github.com/harrisonhys/Workload-forecasting dengan lisensi MIT. Paket ini memuat seluruh kode (persiapan data, pembungkus model dengan revisi _checkpoint_ yang terkunci, "
+    P("Paket keterulangan tersedia di https://github.com/harrisonhys/Workload-forecasting dengan lisensi MIT, dan versi yang "
+      "dipakai dalam naskah ini (v0.5) diarsipkan di Zenodo dengan DOI https://doi.org/10.5281/zenodo.23662411. Paket ini memuat seluruh kode (persiapan data, pembungkus model dengan revisi _checkpoint_ yang terkunci, "
       "model pembanding, simulator, dan analisis), lingkungan Python dengan berkas kunci versi, serta skrip yang menjalankan "
       "seluruh eksperimen secara berurutan. Pembagian data dicatat pada configs/splits.json, yang memuat batas latih, validasi, "
       "dan uji, jumlah origin, horizon, serta sidik sha256 setiap panel olahan, sehingga pembaca dapat memastikan bahwa data "
       "yang mereka bangun ulang identik. Daftar ID deret untuk setiap dataset dan resolusi ada di configs/series, dan revisi "
       "_checkpoint_ serta pengaturan model pembanding ada di configs/models.json. Keluaran pendukung mencakup metrik per deret "
       "untuk setiap model, hasil simulasi, pengukuran latensi, dan berkas CSV untuk setiap tabel dan gambar. Ramalan per origin "
-      "(sekitar 1 GB) tidak disimpan di repositori dan dapat dibangkitkan ulang dengan skrip yang sama. Semua trace yang dipakai tersedia untuk publik dengan lisensi masing-masing, dan "
+      "(sekitar 1 GB) dilampirkan pada rilis v0.5 di GitHub dalam enam berkas zip dengan checksum SHA-256, dan juga dapat "
+      "dibangkitkan ulang dengan skrip yang sama. Semua trace yang dipakai tersedia untuk publik dengan lisensi masing-masing, dan "
       "model Moirai-2.0-R-small berlisensi CC-BY-NC-4.0.")
     H("Lampiran A. Revisi checkpoint", 1)
     ltable("ckpt", ["Model", "Repositori Hugging Face", "Revisi"], [
