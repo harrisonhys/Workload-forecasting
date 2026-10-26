@@ -1,0 +1,7 @@
+,series,horizon_steps,smooth,erratic,intermittent,lumpy
+huawei_5min,50,12,24,22,0,4
+alibaba2018_5min,201,12,199,1,1,0
+azure2019_5min,550,12,248,142,75,85
+azure2019_1min,550,60,166,131,132,121
+azure2021_5min,119,12,4,3,63,49
+azure2021_1min,119,60,0,0,67,52

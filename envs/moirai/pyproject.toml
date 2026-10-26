@@ -1,0 +1,7 @@
+[project]
+name = "moirai-env"
+version = "0"
+requires-python = ">=3.11,<3.13"
+dependencies = ["uni2ts==2.0.0", "pandas>=2.2,<3", "pyarrow>=16,<20"]
+[tool.uv]
+package = false

@@ -1,0 +1,124 @@
+{
+  "huawei_5min": {
+    "n_series": 50,
+    "n_steps": 8640,
+    "step_minutes": 5,
+    "train_days": 24,
+    "val_days": 2,
+    "test_days": 4,
+    "train_end_step": 6912,
+    "val_end_step": 7488,
+    "origins_val": 48,
+    "origins_test": 96,
+    "origin_stride_minutes": 60,
+    "horizons_steps": [
+      1,
+      3,
+      12
+    ],
+    "processed_parquet": "data/processed/huawei.parquet",
+    "sha256": "a11abaca6ffec042623defff94a77f2b3b950ab0e1061cbe89d8126d36bd81d0"
+  },
+  "alibaba2018_5min": {
+    "n_series": 201,
+    "n_steps": 2304,
+    "step_minutes": 5,
+    "train_days": 5,
+    "val_days": 1,
+    "test_days": 2,
+    "train_end_step": 1440,
+    "val_end_step": 1728,
+    "origins_val": 24,
+    "origins_test": 48,
+    "origin_stride_minutes": 60,
+    "horizons_steps": [
+      1,
+      3,
+      12
+    ],
+    "processed_parquet": "data/processed/alibaba2018.parquet",
+    "sha256": "39b4a4d15c49e9908297d913a18b5655ee5a8e67e51ffbb911a6988af9ba6e0e"
+  },
+  "azure2019_5min": {
+    "n_series": 550,
+    "n_steps": 4032,
+    "step_minutes": 5,
+    "train_days": 10,
+    "val_days": 2,
+    "test_days": 2,
+    "train_end_step": 2880,
+    "val_end_step": 3456,
+    "origins_val": 48,
+    "origins_test": 48,
+    "origin_stride_minutes": 60,
+    "horizons_steps": [
+      1,
+      3,
+      12
+    ],
+    "processed_parquet": "data/processed/azure2019.parquet",
+    "sha256": "07085148d5e60ada296aa0bf0333fc4379dcdfbe1dbd0e56fc1a5cd560255f64"
+  },
+  "azure2019_1min": {
+    "n_series": 550,
+    "n_steps": 20160,
+    "step_minutes": 1,
+    "train_days": 10,
+    "val_days": 2,
+    "test_days": 2,
+    "train_end_step": 14400,
+    "val_end_step": 17280,
+    "origins_val": 48,
+    "origins_test": 48,
+    "origin_stride_minutes": 60,
+    "horizons_steps": [
+      1,
+      5,
+      15,
+      60
+    ],
+    "processed_parquet": "data/processed/azure2019.parquet",
+    "sha256": "07085148d5e60ada296aa0bf0333fc4379dcdfbe1dbd0e56fc1a5cd560255f64"
+  },
+  "azure2021_5min": {
+    "n_series": 119,
+    "n_steps": 4032,
+    "step_minutes": 5,
+    "train_days": 10,
+    "val_days": 2,
+    "test_days": 2,
+    "train_end_step": 2880,
+    "val_end_step": 3456,
+    "origins_val": 48,
+    "origins_test": 48,
+    "origin_stride_minutes": 60,
+    "horizons_steps": [
+      1,
+      3,
+      12
+    ],
+    "processed_parquet": "data/processed/azure2021.parquet",
+    "sha256": "4dd7515274cd950f5ef1e9921b497fa671070cac107f0565b75ee275ea380b6b"
+  },
+  "azure2021_1min": {
+    "n_series": 119,
+    "n_steps": 20160,
+    "step_minutes": 1,
+    "train_days": 10,
+    "val_days": 2,
+    "test_days": 2,
+    "train_end_step": 14400,
+    "val_end_step": 17280,
+    "origins_val": 48,
+    "origins_test": 48,
+    "origin_stride_minutes": 60,
+    "horizons_steps": [
+      1,
+      5,
+      15,
+      60
+    ],
+    "processed_parquet": "data/processed/azure2021.parquet",
+    "sha256": "4dd7515274cd950f5ef1e9921b497fa671070cac107f0565b75ee275ea380b6b"
+  }
+}

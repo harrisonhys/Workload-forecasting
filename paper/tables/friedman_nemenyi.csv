@@ -1,0 +1,13 @@
+,,n,k,chi2,log10_p,CD,best,rank_best,second,rank_second,best_vs_second_significant
+huawei_5min,1,50,21,638.5,-121.7,4.43,TimesFM-3,3.22,TimesFM-2.5,4.66,False
+huawei_5min,12,50,21,752.2,-145.7,4.43,Chronos-2,2.76,TimesFM-3,2.8,False
+alibaba2018_5min,1,201,21,3449.4,-725.4,2.21,TimesFM-3,2.38,MSTL-ARIMA,3.3,False
+alibaba2018_5min,12,201,21,3554.7,-748.2,2.21,TimesFM-3,2.1,Chronos-2,2.48,False
+azure2019_5min,1,417,20,3565.1,-751.6,1.45,TimesFM-3,4.12,Chronos-2,4.46,False
+azure2019_5min,12,468,20,4504.0,-954.6,1.37,TimesFM-3,3.43,Chronos-2,3.92,False
+azure2019_1min,1,391,18,2732.3,-574.0,1.33,TimesFM-3,4.17,Toto,4.57,False
+azure2019_1min,60,477,18,3668.2,-776.2,1.21,TimesFM-3,3.55,Toto,3.74,False
+azure2021_5min,1,56,20,399.6,-72.3,3.96,TiRex,6.23,TimesFM-3,6.51,False
+azure2021_5min,12,77,20,741.6,-144.3,3.38,TiRex,5.83,Selalu nol,5.95,False
+azure2021_1min,1,48,18,262.1,-45.1,3.8,TiRex,6.0,TimesFM-3,6.23,False
+azure2021_1min,60,77,18,614.7,-119.0,3.0,Selalu nol,4.18,Toto,5.27,False
